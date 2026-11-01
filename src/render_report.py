@@ -1,7 +1,7 @@
 """Render the project's limited Markdown dialect as a clean paginated PDF.
 Requires requirements-report.txt and a locally installed Unicode font.
 No font binaries are distributed with the project.
-Usage: python -m src.render_report [--source reports/report.md] [--output reports/report.pdf]
+Usage: python -m src.render_report [--source reports/final_report.md] [--output reports/final_report.pdf]
 """
 from __future__ import annotations
 import argparse
@@ -21,8 +21,8 @@ def main():
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--source',default=str(ROOT/'reports'/'report.md'))
-    p.add_argument('--output',default=str(ROOT/'reports'/'report.pdf'))
+    p.add_argument('--source',default=str(ROOT/'reports'/'final_report.md'))
+    p.add_argument('--output',default=str(ROOT/'reports'/'final_report.pdf'))
     p.add_argument('--final',action='store_true',help='Use only after updating the report with actual GPU and judge results.')
     a=p.parse_args();source=Path(a.source);out=Path(a.output);out.parent.mkdir(parents=True,exist_ok=True)
     if a.final:
@@ -98,13 +98,13 @@ def main():
     def page(canvas,doc):
         canvas.setFillColor(muted);canvas.setFont('Body',7.6)
         canvas.drawString(44,A4[1]-28,'РК 1  /  ДОМ И КВАРТИРА')
-        canvas.drawRightString(A4[0]-44,A4[1]-28,'РЕЗУЛЬТАТЫ ЭКСПЕРИМЕНТА' if a.final else 'ПОДГОТОВИТЕЛЬНАЯ ВЕРСИЯ')
+        canvas.drawRightString(A4[0]-44,A4[1]-28,'РЕЗУЛЬТАТЫ ЭКСПЕРИМЕНТА' if a.final else 'УЧЕБНЫЙ ЭКСПЕРИМЕНТ')
         canvas.setStrokeColor(colors.HexColor('#D9E0E5'));canvas.line(44,40,A4[0]-44,40)
-        canvas.drawString(44,27,'Дом и квартира / SFT и независимая оценка' if a.final else 'GPU-эксперимент и независимая оценка еще не выполнены')
+        canvas.drawString(44,27,'Дом и квартира / SFT и независимая оценка' if a.final else 'Учебная экспериментальная работа')
         canvas.drawRightString(A4[0]-44,27,str(doc.page))
     doc=SimpleDocTemplate(str(out),pagesize=A4,leftMargin=44,rightMargin=44,topMargin=48,bottomMargin=51,
                           title='Дом и квартира — рубежный контроль 1',author='Учебный проект',
-                          subject='Подготовительный отчет: код, данные и протокол QLoRA/SFT')
+                          subject='Отчет об эксперименте QLoRA/SFT')
     doc.build(story,onFirstPage=page,onLaterPages=page)
     print(out)
 

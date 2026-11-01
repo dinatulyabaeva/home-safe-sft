@@ -1,7 +1,14 @@
-# Веса обученного LoRA-адаптера
+# Обученный LoRA-адаптер
 
-Файл: `artifacts/adapter/adapter_model.safetensors`.
+Адаптер QLoRA для `Qwen/Qwen2.5-3B-Instruct` сохранён в публичном репозитории.
 
-SHA256: `cc9b84bd4d7de04f10a2c8ecfa74010d82ffa0459278fa8252157a19fcff7b94`
+- **Веса:** [adapter_model.safetensors](../artifacts/adapter/adapter_model.safetensors)
+- **Каталог со всеми файлами:** [artifacts/adapter](../artifacts/adapter/)
+- **Конфигурация:** [adapter_config.json](../artifacts/adapter/adapter_config.json)
+- **Параметры и журнал обучения:** [experiment.json](../artifacts/adapter/experiment.json)
+- **SHA-256 файла весов:** `cc9b84bd4d7de04f10a2c8ecfa74010d82ffa0459278fa8252157a19fcff7b94`
+- **Размер:** 59 933 632 байт.
 
-Веса обучены на Tesla T4 и входят в ZIP. Публичная ссылка пока отсутствует: владелец должен опубликовать весь каталог `artifacts/adapter/` на Hugging Face Hub или в GitHub Releases.
+Публичная прямая ссылка: https://github.com/dinatulyabaeva/home-safe-sft/blob/main/artifacts/adapter/adapter_model.safetensors
+
+Для воспроизведения требуется скачать каталог адаптера целиком и использовать базу `Qwen/Qwen2.5-3B-Instruct` указанной в `experiment.json` ревизии. В репозитории нет полного набора базовых весов.

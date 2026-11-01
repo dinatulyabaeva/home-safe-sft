@@ -1,5 +1,11 @@
-# Финальная сдача
+# Материалы для сдачи: рубежный контроль №1
 
-В архиве: `reports/final_report.pdf`, `reports/final_report.md`, Colab-ноутбук, `src/`, `tests/`, `data/*.jsonl`, LoRA-веса `artifacts/adapter/`, метрики `artifacts/metrics/`, оценки `artifacts/judge/`, графики `artifacts/plots/`, логи `artifacts/logs/`.
+**Репозиторий:** https://github.com/dinatulyabaeva/home-safe-sft
 
-Перед LMS создайте GitHub-репозиторий с кодом, данными и отчётом; опубликуйте адаптер через Hugging Face Hub или GitHub Releases; вставьте действительные ссылки в LMS и `docs/WEIGHTS.md`. Проверьте ссылки в режиме инкогнито. Учитывайте лицензию базовой модели.
+**Итоговый отчёт:** [PDF на 8 страниц](reports/final_report.pdf) · [Markdown](reports/final_report.md).
+
+**Весовой адаптер:** [папка с весами и конфигурацией](artifacts/adapter/) · [подробности и SHA-256](docs/WEIGHTS.md).
+
+Данные: `data/train.jsonl`, `data/validation.jsonl`, `data/test.jsonl`; код: `src/`, `tests/`, Colab-ноутбук в `notebooks/`; логи, графики, результаты до/после и судейские оценки — в `artifacts/`.
+
+Для LMS отправьте ссылку на репозиторий и итоговый PDF. Перед сдачей откройте ссылки в режиме инкогнито и проверьте, что большой файл весов скачивается. Учтите условия лицензии базовой модели.

@@ -1,0 +1,330 @@
+{
+  "electricity": [
+    {
+      "metric": "high_risk_action_coverage",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.4444444444444444,
+      "delta": 0.4444444444444444,
+      "delta_ci95_low": 0.2222222222222222,
+      "delta_ci95_high": 0.6666666666666666
+    },
+    {
+      "metric": "high_risk_checklist_pass",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "all_applicable_checklist_pass",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "russian_ok",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 1.0,
+      "tuned": 1.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "mean_word_count",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 45.88888888888889,
+      "tuned": 182.44444444444446,
+      "delta": 136.55555555555557,
+      "delta_ci95_low": 87.33333333333333,
+      "delta_ci95_high": 165.0
+    },
+    {
+      "metric": "repeated_sentence_flag",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.8888888888888888,
+      "delta": 0.8888888888888888,
+      "delta_ci95_low": 0.6666666666666666,
+      "delta_ci95_high": 1.0
+    },
+    {
+      "metric": "household_emergency_phrase_flag",
+      "n_examples": 0,
+      "n_families": 0,
+      "baseline": null,
+      "tuned": null,
+      "delta": null,
+      "delta_ci95_low": null,
+      "delta_ci95_high": null
+    },
+    {
+      "metric": "token_limit_rate",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.8888888888888888,
+      "delta": 0.8888888888888888,
+      "delta_ci95_low": 0.6666666666666666,
+      "delta_ci95_high": 1.0
+    }
+  ],
+  "gas": [
+    {
+      "metric": "high_risk_action_coverage",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.3333333333333333,
+      "delta": 0.3333333333333333,
+      "delta_ci95_low": 0.3333333333333333,
+      "delta_ci95_high": 0.3333333333333333
+    },
+    {
+      "metric": "high_risk_checklist_pass",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "all_applicable_checklist_pass",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "russian_ok",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 1.0,
+      "tuned": 1.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "mean_word_count",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 53.888888888888886,
+      "tuned": 84.33333333333333,
+      "delta": 30.444444444444443,
+      "delta_ci95_low": -13.666666666666664,
+      "delta_ci95_high": 70.0
+    },
+    {
+      "metric": "repeated_sentence_flag",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.2222222222222222,
+      "delta": 0.2222222222222222,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.3333333333333333
+    },
+    {
+      "metric": "household_emergency_phrase_flag",
+      "n_examples": 0,
+      "n_families": 0,
+      "baseline": null,
+      "tuned": null,
+      "delta": null,
+      "delta_ci95_low": null,
+      "delta_ci95_high": null
+    },
+    {
+      "metric": "token_limit_rate",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.2222222222222222,
+      "delta": 0.2222222222222222,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.3333333333333333
+    }
+  ],
+  "household": [
+    {
+      "metric": "high_risk_action_coverage",
+      "n_examples": 0,
+      "n_families": 0,
+      "baseline": null,
+      "tuned": null,
+      "delta": null,
+      "delta_ci95_low": null,
+      "delta_ci95_high": null
+    },
+    {
+      "metric": "high_risk_checklist_pass",
+      "n_examples": 0,
+      "n_families": 0,
+      "baseline": null,
+      "tuned": null,
+      "delta": null,
+      "delta_ci95_low": null,
+      "delta_ci95_high": null
+    },
+    {
+      "metric": "all_applicable_checklist_pass",
+      "n_examples": 0,
+      "n_families": 0,
+      "baseline": null,
+      "tuned": null,
+      "delta": null,
+      "delta_ci95_low": null,
+      "delta_ci95_high": null
+    },
+    {
+      "metric": "russian_ok",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 1.0,
+      "tuned": 1.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "mean_word_count",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 169.2222222222222,
+      "tuned": 64.22222222222223,
+      "delta": -104.99999999999997,
+      "delta_ci95_low": -132.66666666666666,
+      "delta_ci95_high": -55.333333333333336
+    },
+    {
+      "metric": "repeated_sentence_flag",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.1111111111111111,
+      "tuned": 0.1111111111111111,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "household_emergency_phrase_flag",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "token_limit_rate",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.1111111111111111,
+      "tuned": 0.1111111111111111,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    }
+  ],
+  "water": [
+    {
+      "metric": "high_risk_action_coverage",
+      "n_examples": 3,
+      "n_families": 1,
+      "baseline": 0.0,
+      "tuned": 0.4166666666666667,
+      "delta": 0.4166666666666667,
+      "delta_ci95_low": 0.4166666666666667,
+      "delta_ci95_high": 0.4166666666666667
+    },
+    {
+      "metric": "high_risk_checklist_pass",
+      "n_examples": 3,
+      "n_families": 1,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "all_applicable_checklist_pass",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "russian_ok",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 1.0,
+      "tuned": 1.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "mean_word_count",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 51.22222222222222,
+      "tuned": 176.0,
+      "delta": 124.77777777777777,
+      "delta_ci95_low": 86.66666666666669,
+      "delta_ci95_high": 147.33333333333331
+    },
+    {
+      "metric": "repeated_sentence_flag",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.8888888888888888,
+      "delta": 0.8888888888888888,
+      "delta_ci95_low": 0.6666666666666666,
+      "delta_ci95_high": 1.0
+    },
+    {
+      "metric": "household_emergency_phrase_flag",
+      "n_examples": 0,
+      "n_families": 0,
+      "baseline": null,
+      "tuned": null,
+      "delta": null,
+      "delta_ci95_low": null,
+      "delta_ci95_high": null
+    },
+    {
+      "metric": "token_limit_rate",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.8888888888888888,
+      "delta": 0.8888888888888888,
+      "delta_ci95_low": 0.6666666666666666,
+      "delta_ci95_high": 1.0
+    }
+  ]
+}

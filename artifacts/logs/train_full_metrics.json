@@ -1,0 +1,16 @@
+{
+  "train_runtime": 399.9243,
+  "train_samples_per_second": 0.9,
+  "train_steps_per_second": 0.113,
+  "total_flos": 1542213208571904.0,
+  "train_loss": 1.3105521043141684,
+  "epoch": 3.0,
+  "eval_loss": 1.0040227174758911,
+  "eval_runtime": 12.9678,
+  "eval_samples_per_second": 2.776,
+  "eval_steps_per_second": 2.776,
+  "peak_allocated_bytes": 4135538176,
+  "peak_reserved_bytes": 5851054080,
+  "wall_seconds": 413.1277639960001,
+  "trainable_parameters": 14966784
+}

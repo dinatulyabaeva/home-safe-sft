@@ -1,0 +1,79 @@
+{
+  "data_audit": {
+    "train": {
+      "rows": 120,
+      "families": 40,
+      "categories": {
+        "electricity": 30,
+        "gas": 30,
+        "household": 30,
+        "water": 30
+      },
+      "risk": {
+        "high": 69,
+        "low": 51
+      }
+    },
+    "validation": {
+      "rows": 36,
+      "families": 12,
+      "categories": {
+        "electricity": 9,
+        "gas": 9,
+        "household": 9,
+        "water": 9
+      },
+      "risk": {
+        "high": 24,
+        "low": 12
+      }
+    },
+    "test": {
+      "rows": 36,
+      "families": 12,
+      "categories": {
+        "electricity": 9,
+        "gas": 9,
+        "household": 9,
+        "water": 9
+      },
+      "risk": {
+        "high": 21,
+        "low": 15
+      }
+    }
+  },
+  "checker_challenge": {
+    "fixture_count": 12,
+    "tp": 4,
+    "tn": 5,
+    "fp": 2,
+    "fn": 1,
+    "accuracy_on_authored_fixtures": 0.75,
+    "precision_on_authored_fixtures": 0.6666666666666666,
+    "recall_on_authored_fixtures": 0.8,
+    "not_model_metrics": true,
+    "not_independent_validation": true,
+    "interpretation": "Intentionally includes known counterexamples. These numbers are not model safety scores or population estimates."
+  },
+  "reference_consistency": {
+    "train": {
+      "n": 120,
+      "n_applicable": 90,
+      "n_checklist_pass": 90,
+      "n_russian_ok": 120
+    },
+    "validation": {
+      "n": 36,
+      "n_applicable": 27,
+      "n_checklist_pass": 27,
+      "n_russian_ok": 36
+    },
+    "test": {
+      "n": 36,
+      "n_applicable": 27,
+      "n_checklist_pass": 27,
+      "n_russian_ok": 36
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-30T13:19:15.185628+00:00",
+  "splits": {
+    "train": {
+      "rows": 120,
+      "families": 40,
+      "categories": {
+        "electricity": 30,
+        "gas": 30,
+        "household": 30,
+        "water": 30
+      },
+      "risk": {
+        "high": 69,
+        "low": 51
+      }
+    },
+    "validation": {
+      "rows": 36,
+      "families": 12,
+      "categories": {
+        "electricity": 9,
+        "gas": 9,
+        "household": 9,
+        "water": 9
+      },
+      "risk": {
+        "high": 24,
+        "low": 12
+      }
+    },
+    "test": {
+      "rows": 36,
+      "families": 12,
+      "categories": {
+        "electricity": 9,
+        "gas": 9,
+        "household": 9,
+        "water": 9
+      },
+      "risk": {
+        "high": 21,
+        "low": 15
+      }
+    }
+  },
+  "exact_cross_split_family_prompt_answer_leaks": 0,
+  "semantic_leakage_not_ruled_out": true,
+  "hashes": {
+    "data/train.jsonl": "05573badb5857639a9617aa0533c881df8ef4ed898065eceefb7cf11efb0190f",
+    "data/validation.jsonl": "d63a82f26274c67500b89bfad94e2d69bca0e4fc0f49a376168b549efb210449",
+    "data/test.jsonl": "f6c0b44c9eddb1c0a78866c229589f8198917036a3d0d2eb630312ec72478ede",
+    "data/demo_prompts.jsonl": "ddd6aefb6d10631d8bace4fd6594ca26e674ee14d883531bdc0339551960a21e",
+    "configs/experiment.json": "6edee5a3f75bf594154eae8274c16181ce85942aadfc357c95f9b304e4ee556a",
+    "configs/system_prompt.txt": "43eb6f6663d1d3fb18b0ed1b70d030b3cd5245221a0628f1bda1c692ee3c2012",
+    "requirements.txt": "b1f13d7866e700b9fe065b87f0cb7a7c536df6dd48676ddbfaf95d8059fb3b09",
+    "requirements-torch.txt": "d4fdc5016c42b6810ffe67bb7f46eef78224db5fd55d25b1fc37eab69bd1a3d9"
+  }
+}

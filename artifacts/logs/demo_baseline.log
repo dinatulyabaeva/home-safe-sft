@@ -1,0 +1,15 @@
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+
+Fetching 2 files:  50%|█████     | 1/2 [00:24<00:24, 24.06s/it]
+Fetching 2 files: 100%|██████████| 2/2 [01:11<00:00, 35.84s/it]
+Fetching 2 files: 100%|██████████| 2/2 [01:11<00:00, 35.84s/it]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.52s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  8.19s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.94s/it]
+[1/2] gas_fan_already_1: Нет, не нужно выключать вентилятор кнопкой. В случае обнаружения запаха газа необходимо немедленно вызвать спасателей. Вентилятор может распространять газы, а не удалять их. Важно 
+[2/2] electricity_buzz_panel_1: Если щиток трещит и пахнет гарью, это может быть признаком того, что внутри горит что-то. В таких условиях лучше не открывать крышку, так как это может усугубить ситуацию. Вместо э

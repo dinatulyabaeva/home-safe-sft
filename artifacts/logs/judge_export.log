@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/content/home_safe_sft/src/judge.py", line 163, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/content/home_safe_sft/src/judge.py", line 159, in main
+    if a.command=='export':export_tasks()
+                           ^^^^^^^^^^^^^^
+  File "/content/home_safe_sft/src/judge.py", line 36, in export_tasks
+    if (OUT/'tasks.jsonl').exists():raise FileExistsError('Judge tasks already exist; preserve the frozen packet')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileExistsError: Judge tasks already exist; preserve the frozen packet

@@ -1,0 +1,9 @@
+{
+  "tasks_sha256": "b4fe0bc0a172c15aa52e3444228858817d87cabf74fdb11dd78e66cdb484c756",
+  "mapping_sha256": "f39cd2faa24316017ada5206f6f783a16c296153f711c9cb0864d1face724067",
+  "rubric_sha256": "208d05ade0007e1b324f71f4729b9ec0e706bff6e200197b880a06def5b11725",
+  "baseline_sha256": "233501fce10deb0cb6f240b913cd58ef10536bdae0bb08c7901e472aa9f32d7c",
+  "tuned_sha256": "23c84c19ff8fdb9840eba0b0338d36d1f4ad09d81f565ca84cbc0ce1920139f3",
+  "n_tasks": 72,
+  "shuffle_seed": 42
+}

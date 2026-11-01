@@ -1,0 +1,42 @@
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 120 examples [00:00, 29237.09 examples/s]
+
+Generating validation split: 0 examples [00:00, ? examples/s]
+Generating validation split: 36 examples [00:00, 17588.23 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s]
+Generating test split: 36 examples [00:00, 19886.07 examples/s]
+{
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "gpu": {
+    "name": "Tesla T4",
+    "total_memory_bytes": 15637086208,
+    "capability": [
+      7,
+      5
+    ],
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "token_lengths": {
+    "train": {
+      "n": 120,
+      "min": 173,
+      "max": 306,
+      "mean": 252.46666666666667
+    },
+    "validation": {
+      "n": 36,
+      "min": 186,
+      "max": 299,
+      "mean": 252.25
+    },
+    "test": {
+      "n": 36,
+      "min": 187,
+      "max": 309,
+      "mean": 261.75
+    }
+  }
+}

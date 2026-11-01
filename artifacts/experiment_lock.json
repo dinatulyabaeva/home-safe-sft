@@ -1,0 +1,53 @@
+{
+  "created_at_utc": "2026-10-30T13:19:26.231925+00:00",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "input_sha256": {
+    "data/train.jsonl": "05573badb5857639a9617aa0533c881df8ef4ed898065eceefb7cf11efb0190f",
+    "data/validation.jsonl": "d63a82f26274c67500b89bfad94e2d69bca0e4fc0f49a376168b549efb210449",
+    "data/test.jsonl": "f6c0b44c9eddb1c0a78866c229589f8198917036a3d0d2eb630312ec72478ede",
+    "data/demo_prompts.jsonl": "ddd6aefb6d10631d8bace4fd6594ca26e674ee14d883531bdc0339551960a21e",
+    "configs/experiment.json": "6edee5a3f75bf594154eae8274c16181ce85942aadfc357c95f9b304e4ee556a",
+    "configs/system_prompt.txt": "43eb6f6663d1d3fb18b0ed1b70d030b3cd5245221a0628f1bda1c692ee3c2012",
+    "requirements.txt": "b1f13d7866e700b9fe065b87f0cb7a7c536df6dd48676ddbfaf95d8059fb3b09",
+    "requirements-torch.txt": "d4fdc5016c42b6810ffe67bb7f46eef78224db5fd55d25b1fc37eab69bd1a3d9"
+  },
+  "runtime": {
+    "python": "3.12.9 (main, Mar 17 2025, 21:01:58) [Clang 20.1.0 ]",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "torchvision": "0.21.0+cu124",
+      "torchaudio": "2.6.0+cu124",
+      "transformers": "4.51.3",
+      "peft": "0.15.2",
+      "accelerate": "1.6.0",
+      "bitsandbytes": "0.45.5",
+      "datasets": "3.5.0",
+      "huggingface-hub": "0.30.2",
+      "tokenizers": "0.21.1",
+      "safetensors": "0.5.3",
+      "numpy": "2.2.4",
+      "pandas": "2.2.3",
+      "pyarrow": "19.0.1",
+      "matplotlib": "3.10.1"
+    }
+  },
+  "gpu": {
+    "name": "Tesla T4",
+    "total_memory_bytes": 15637086208,
+    "capability": [
+      7,
+      5
+    ],
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 512
+  },
+  "dataset_type": "synthetic pilot; pending human review"
+}

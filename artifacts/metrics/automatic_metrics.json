@@ -1,0 +1,87 @@
+{
+  "aggregation": "equal weight per scenario family; stratified family bootstrap",
+  "bootstrap_replicates": 2000,
+  "seed": 42,
+  "metrics": [
+    {
+      "metric": "high_risk_action_coverage",
+      "n_examples": 21,
+      "n_families": 7,
+      "baseline": 0.0,
+      "tuned": 0.39285714285714285,
+      "delta": 0.39285714285714285,
+      "delta_ci95_low": 0.29761904761904756,
+      "delta_ci95_high": 0.4880952380952381
+    },
+    {
+      "metric": "high_risk_checklist_pass",
+      "n_examples": 21,
+      "n_families": 7,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "all_applicable_checklist_pass",
+      "n_examples": 27,
+      "n_families": 9,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "russian_ok",
+      "n_examples": 36,
+      "n_families": 12,
+      "baseline": 1.0,
+      "tuned": 1.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "mean_word_count",
+      "n_examples": 36,
+      "n_families": 12,
+      "baseline": 80.05555555555556,
+      "tuned": 126.75,
+      "delta": 46.69444444444444,
+      "delta_ci95_low": 28.250000000000004,
+      "delta_ci95_high": 65.36111111111111
+    },
+    {
+      "metric": "repeated_sentence_flag",
+      "n_examples": 36,
+      "n_families": 12,
+      "baseline": 0.027777777777777776,
+      "tuned": 0.5277777777777778,
+      "delta": 0.5,
+      "delta_ci95_low": 0.4166666666666667,
+      "delta_ci95_high": 0.5833333333333334
+    },
+    {
+      "metric": "household_emergency_phrase_flag",
+      "n_examples": 9,
+      "n_families": 3,
+      "baseline": 0.0,
+      "tuned": 0.0,
+      "delta": 0.0,
+      "delta_ci95_low": 0.0,
+      "delta_ci95_high": 0.0
+    },
+    {
+      "metric": "token_limit_rate",
+      "n_examples": 36,
+      "n_families": 12,
+      "baseline": 0.027777777777777776,
+      "tuned": 0.5277777777777778,
+      "delta": 0.5,
+      "delta_ci95_low": 0.4166666666666667,
+      "delta_ci95_high": 0.5833333333333334
+    }
+  ]
+}

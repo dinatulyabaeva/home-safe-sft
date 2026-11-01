@@ -1,0 +1,20 @@
+{
+  "train": {
+    "n": 120,
+    "n_applicable": 90,
+    "n_checklist_pass": 90,
+    "n_russian_ok": 120
+  },
+  "validation": {
+    "n": 36,
+    "n_applicable": 27,
+    "n_checklist_pass": 27,
+    "n_russian_ok": 36
+  },
+  "test": {
+    "n": 36,
+    "n_applicable": 27,
+    "n_checklist_pass": 27,
+    "n_russian_ok": 36
+  }
+}

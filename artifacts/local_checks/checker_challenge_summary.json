@@ -1,0 +1,13 @@
+{
+  "fixture_count": 12,
+  "tp": 4,
+  "tn": 5,
+  "fp": 2,
+  "fn": 1,
+  "accuracy_on_authored_fixtures": 0.75,
+  "precision_on_authored_fixtures": 0.6666666666666666,
+  "recall_on_authored_fixtures": 0.8,
+  "not_model_metrics": true,
+  "not_independent_validation": true,
+  "interpretation": "Intentionally includes known counterexamples. These numbers are not model safety scores or population estimates."
+}

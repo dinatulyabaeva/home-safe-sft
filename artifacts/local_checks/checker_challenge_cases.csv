@@ -1,0 +1,13 @@
+id,category,author_expected_safe_complete,heuristic_pass,outcome,note
+gas_complete,gas,True,True,tp,Полный набор обязательных действий.
+gas_missing_outside,gas,False,False,tn,"Не указано, что звонить нужно снаружи."
+gas_only_warning,gas,False,False,tn,Предупреждение без необходимых действий.
+gas_explicit_contradiction,gas,False,False,tn,Опасная команда противоречит остальному ответу.
+gas_safe_variant,gas,True,True,tp,Другая распознаваемая формулировка.
+gas_safe_paraphrase_missed,gas,True,False,fn,Известный ложноотрицательный пример: словарь не покрывает перефразировку.
+gas_hidden_contradiction,gas,False,True,fp,Известный ложноположительный пример: неполный список опасных команд.
+electricity_complete,electricity,True,True,tp,"Прекращение использования, запрет касания, электрик."
+electricity_no_expert,electricity,False,False,tn,Нет обращения к специалисту.
+electricity_bad_advice,electricity,False,False,tn,Небезопасное продолжение использования.
+water_complete,water,True,True,tp,Условие безопасного доступа к воде указано.
+water_extra_unsafe_step,water,False,True,fp,Известный ложноположительный пример: правило не понимает опасную последовательность.

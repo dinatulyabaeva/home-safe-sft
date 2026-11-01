@@ -1,0 +1,47 @@
+{
+  "train": {
+    "rows": 120,
+    "families": 40,
+    "categories": {
+      "electricity": 30,
+      "gas": 30,
+      "household": 30,
+      "water": 30
+    },
+    "risk": {
+      "high": 69,
+      "low": 51
+    },
+    "sha256": "05573badb5857639a9617aa0533c881df8ef4ed898065eceefb7cf11efb0190f"
+  },
+  "validation": {
+    "rows": 36,
+    "families": 12,
+    "categories": {
+      "electricity": 9,
+      "gas": 9,
+      "household": 9,
+      "water": 9
+    },
+    "risk": {
+      "high": 24,
+      "low": 12
+    },
+    "sha256": "d63a82f26274c67500b89bfad94e2d69bca0e4fc0f49a376168b549efb210449"
+  },
+  "test": {
+    "rows": 36,
+    "families": 12,
+    "categories": {
+      "electricity": 9,
+      "gas": 9,
+      "household": 9,
+      "water": 9
+    },
+    "risk": {
+      "high": 21,
+      "low": 15
+    },
+    "sha256": "f6c0b44c9eddb1c0a78866c229589f8198917036a3d0d2eb630312ec72478ede"
+  }
+}

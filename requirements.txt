@@ -1,0 +1,16 @@
+# Target: a fresh Google Colab GPU runtime. These are fixed experiment versions,
+# not a claim that they are the latest releases. Full GPU integration is not
+# validated in the delivery environment. The notebook records pip freeze.
+# Install torch/torchvision/torchaudio first with the cu124 index (see notebook).
+transformers==4.51.3
+peft==0.15.2
+accelerate==1.6.0
+bitsandbytes==0.45.5
+datasets==3.5.0
+huggingface-hub==0.30.2
+tokenizers==0.21.1
+safetensors==0.5.3
+numpy==2.2.4
+pandas==2.2.3
+pyarrow==19.0.1
+matplotlib==3.10.1

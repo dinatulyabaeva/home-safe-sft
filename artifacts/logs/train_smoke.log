@@ -1,0 +1,94 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:14<00:14, 14.19s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:23<00:00, 11.34s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:23<00:00, 11.76s/it]
+trainable params: 14,966,784 || all params: 3,100,905,472 || trainable%: 0.4827
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:02<00:02,  2.38s/it]
+                                             
+{'loss': 2.2547, 'grad_norm': 2.0585360527038574, 'learning_rate': 0.0, 'epoch': 0.12}
+
+ 50%|█████     | 1/2 [00:02<00:02,  2.38s/it]
+100%|██████████| 2/2 [00:03<00:00,  1.61s/it]
+                                             
+{'loss': 2.2841, 'grad_norm': 2.265702724456787, 'learning_rate': 0.0001, 'epoch': 0.25}
+
+100%|██████████| 2/2 [00:03<00:00,  1.61s/it]
+                                             
+{'train_runtime': 3.4504, 'train_samples_per_second': 0.58, 'train_steps_per_second': 0.58, 'train_loss': 2.269386053085327, 'epoch': 0.25}
+
+100%|██████████| 2/2 [00:03<00:00,  1.61s/it]
+100%|██████████| 2/2 [00:03<00:00,  1.72s/it]
+{
+  "training_kind": "smoke",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "experiment_lock_sha256": "e182da452686e8594f878bb5512aeee2b1409aff56fa5729cd39acb5ea67dc24",
+  "config": {
+    "model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "seed": 42,
+    "max_length": 1024,
+    "max_new_tokens": 512,
+    "learning_rate": 0.0001,
+    "epochs": 3,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "quantization": "nf4-double",
+    "compute_dtype": "float16",
+    "optimizer": "paged_adamw_8bit",
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0
+  },
+  "metrics": {
+    "train_runtime": 3.4504,
+    "train_samples_per_second": 0.58,
+    "train_steps_per_second": 0.58,
+    "total_flos": 10043065958400.0,
+    "train_loss": 2.269386053085327,
+    "epoch": 0.25,
+    "peak_allocated_bytes": 4034244096,
+    "peak_reserved_bytes": 4290772992,
+    "wall_seconds": 3.6780738469999505,
+    "trainable_parameters": 14966784
+  },
+  "completed_at_utc": "2026-10-30T13:29:11.664565+00:00",
+  "best_model_checkpoint": null,
+  "runtime": {
+    "python": "3.12.9 (main, Mar 17 2025, 21:01:58) [Clang 20.1.0 ]",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "torchvision": "0.21.0+cu124",
+      "torchaudio": "2.6.0+cu124",
+      "transformers": "4.51.3",
+      "peft": "0.15.2",
+      "accelerate": "1.6.0",
+      "bitsandbytes": "0.45.5",
+      "datasets": "3.5.0",
+      "huggingface-hub": "0.30.2",
+      "tokenizers": "0.21.1",
+      "safetensors": "0.5.3",
+      "numpy": "2.2.4",
+      "pandas": "2.2.3",
+      "pyarrow": "19.0.1",
+      "matplotlib": "3.10.1"
+    }
+  },
+  "weights_sha256": "0ff9e61f229b6706c3923023b9183df7d4b597a2c3b71712c2dc972f866ec961"
+}

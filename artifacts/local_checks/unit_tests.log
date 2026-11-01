@@ -1,0 +1,44 @@
+test_changed_decoding_rejected (test_integration.IntegrationTests.test_changed_decoding_rejected) ... ok
+test_evaluate_and_judge_export_import (test_integration.IntegrationTests.test_evaluate_and_judge_export_import) ... ok
+test_missing_judge_results_not_zero (test_integration.IntegrationTests.test_missing_judge_results_not_zero) ... ok
+test_partial_predictions_rejected (test_integration.IntegrationTests.test_partial_predictions_rejected) ... ok
+test_electricity_pass (test_project.CheckerTests.test_electricity_pass) ... ok
+test_empty_answer (test_project.CheckerTests.test_empty_answer) ... ok
+test_english_answer (test_project.CheckerTests.test_english_answer) ... ok
+test_gas_pass (test_project.CheckerTests.test_gas_pass) ... ok
+test_known_false_negative_is_documented (test_project.CheckerTests.test_known_false_negative_is_documented) ... ok
+test_known_false_positive_is_documented (test_project.CheckerTests.test_known_false_positive_is_documented) ... ok
+test_negation_not_inverted (test_project.CheckerTests.test_negation_not_inverted) ... ok
+test_non_string_answer (test_project.CheckerTests.test_non_string_answer) ... ok
+test_ordinary_is_na_not_auto_success (test_project.CheckerTests.test_ordinary_is_na_not_auto_success) ... ok
+test_repetition (test_project.CheckerTests.test_repetition) ... ok
+test_unknown_action (test_project.CheckerTests.test_unknown_action) ... ok
+test_unsafe_contradiction_flagged (test_project.CheckerTests.test_unsafe_contradiction_flagged) ... ok
+test_warning_is_not_enough (test_project.CheckerTests.test_warning_is_not_enough) ... ok
+test_counts (test_project.DataTests.test_counts) ... ok
+test_no_family_leaks (test_project.DataTests.test_no_family_leaks) ... ok
+test_no_ordinary_checklist (test_project.DataTests.test_no_ordinary_checklist) ... ok
+test_schema_and_split_audit (test_project.DataTests.test_schema_and_split_audit) ... ok
+test_synthetic_provenance (test_project.DataTests.test_synthetic_provenance) ... ok
+test_unique_ids (test_project.DataTests.test_unique_ids) ... ok
+test_boundary_mismatch_raises (test_project.EncodingTests.test_boundary_mismatch_raises) ... ok
+test_collator_pad_is_masked_but_eos_preserved (test_project.EncodingTests.test_collator_pad_is_masked_but_eos_preserved) ... ok
+test_invalid_roles (test_project.EncodingTests.test_invalid_roles) ... ok
+test_prompt_mask_and_eos (test_project.EncodingTests.test_prompt_mask_and_eos) ... ok
+test_truncation_raises (test_project.EncodingTests.test_truncation_raises) ... ok
+test_bool_is_not_score (test_project.JudgeTests.test_bool_is_not_score) ... ok
+test_critical_error_inconsistency (test_project.JudgeTests.test_critical_error_inconsistency) ... ok
+test_extra_field (test_project.JudgeTests.test_extra_field) ... ok
+test_out_of_range (test_project.JudgeTests.test_out_of_range) ... ok
+test_valid (test_project.JudgeTests.test_valid) ... ok
+test_wrong_task (test_project.JudgeTests.test_wrong_task) ... ok
+test_cluster_not_independent_paraphrases (test_project.MetricsTests.test_cluster_not_independent_paraphrases) ... ok
+test_constant_paired_effect (test_project.MetricsTests.test_constant_paired_effect) ... ok
+test_duplicate_id_raises (test_project.MetricsTests.test_duplicate_id_raises) ... ok
+test_missing_pairs_not_zero (test_project.MetricsTests.test_missing_pairs_not_zero) ... ok
+test_quantile (test_project.MetricsTests.test_quantile) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 2.180s
+
+OK

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "lengths": {
+    "train": {
+      "n": 120,
+      "min": 173,
+      "max": 306,
+      "mean": 252.46666666666667
+    },
+    "validation": {
+      "n": 36,
+      "min": 186,
+      "max": 299,
+      "mean": 252.25
+    },
+    "test": {
+      "n": 36,
+      "min": 187,
+      "max": 309,
+      "mean": 261.75
+    }
+  },
+  "assistant_only_labels": true,
+  "datasets_load_dataset_checked": true,
+  "checked_at_utc": "2026-10-30T13:19:29.218255+00:00"
+}

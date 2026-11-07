@@ -1,0 +1,18 @@
+{
+  "base": {
+    "answers": 30,
+    "score": 44,
+    "maximum": 566,
+    "weighted_pct": 7.77,
+    "penalty_points": 12,
+    "violations": 3
+  },
+  "sft": {
+    "answers": 30,
+    "score": 34,
+    "maximum": 566,
+    "weighted_pct": 6.01,
+    "penalty_points": 5,
+    "violations": 1
+  }
+}

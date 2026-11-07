@@ -5,7 +5,7 @@ from collections import defaultdict
 from .common import ROOT, read_jsonl
 
 def normalize(text):
-    return re.sub(r"\\s+", " ", str(text)).strip()
+    return re.sub(r"\s+", " ", str(text)).strip()
 
 def main():
     art = ROOT / "artifacts"

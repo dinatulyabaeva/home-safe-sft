@@ -1,0 +1,18 @@
+{
+  "base": {
+    "words_ok": 26.67,
+    "explanation_ok": 0.0,
+    "actions_header_ok": 0.0,
+    "steps_ok": 0.0,
+    "labels_ok": 0.0,
+    "full_format_ok": 0.0
+  },
+  "sft": {
+    "words_ok": 60.0,
+    "explanation_ok": 0.0,
+    "actions_header_ok": 0.0,
+    "steps_ok": 0.0,
+    "labels_ok": 0.0,
+    "full_format_ok": 0.0
+  }
+}

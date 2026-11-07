@@ -1,0 +1,24 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "seed": 42,
+  "max_seq_length": 2048,
+  "max_new_tokens": 512,
+  "learning_rate": 0.0001,
+  "epochs": 3,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "quantization": "nf4-double",
+  "compute_dtype": "float16"
+}
